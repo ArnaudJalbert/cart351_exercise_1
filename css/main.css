@@ -53,9 +53,38 @@ body{
     font-family: sans-serif;
 }
 
-#main_canvas{
-    position: absolute;
+h1{
+
+}
+input{
+    
+}
+
+.file_input{
+    position: relative;
+    z-index: 201;
+    width: 15%;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: left;
     background-color: white;
+
+}
+
+img{
+    z-index: 150;
+    position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
+    opacity: 20%;
+    mix-blend-mode: overlay;
+}
+
+#main_canvas{
+    z-index: 100;
+    position: absolute;
+    background-color: #626C66;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    mix-blend-mode: overlay;
 }
